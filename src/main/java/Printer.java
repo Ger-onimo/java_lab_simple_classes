@@ -11,8 +11,12 @@ public class Printer {
     }
 
     public boolean enoughPaper(int pages, int copies){
-        return this.sheetNumber >= this.totalSheets(pages, copies);
+       return this.sheetNumber >= this.totalSheets(pages, copies);
     }
 
-    
+//  TODO
+// public int runPrinter(){
+//        if(this.enoughPaper = true);
+//    }
+
 }

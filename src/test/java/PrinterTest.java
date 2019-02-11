@@ -26,8 +26,5 @@ public class PrinterTest {
         assertEquals(false, printer.enoughPaper(2, 500));
     }
 
-    @Test
-    public void refillPrinter(){
-        assertEquals(500, printer.refill());
-    }
+
 }
