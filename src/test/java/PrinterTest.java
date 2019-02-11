@@ -8,8 +8,26 @@ public class PrinterTest {
 
     @Before
     public void before(){
-        printer = new Printer(500, 3);
+        printer = new Printer(500);
     }
 
+    @Test
+    public void totalSheetsNeededToPrint(){
+        assertEquals(100, printer.totalSheets(2, 50));
+    }
 
+    @Test
+    public void printerHasEnoughPaper(){
+        assertEquals(true, printer.enoughPaper(2, 50));
+    }
+
+    @Test
+    public void printerDoesNotHaveEnoughPaper(){
+        assertEquals(false, printer.enoughPaper(2, 500));
+    }
+
+    @Test
+    public void refillPrinter(){
+        assertEquals(500, printer.refill());
+    }
 }
