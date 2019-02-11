@@ -42,12 +42,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2990" />
+          <entry key="java" value="3280" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2990" />
+          <entry key="JAVA" value="3280" />
         </counts>
       </usages-collector>
     </session>
@@ -66,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="-82">
               <caret line="3" column="22" lean-forward="true" selection-start-line="1" selection-end-line="3" selection-end-column="22" />
             </state>
           </provider>
@@ -75,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/WaterBottle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state>
+              <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -84,26 +84,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/WaterBottleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-46">
-              <caret selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Printer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="135">
+              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Printer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PrinterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+            <state relative-caret-position="384">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -495,7 +495,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549919523835" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549922517558" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -509,7 +509,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in SimpleClasses_test">
+  <component name="RunManager" selected="JUnit.PrinterTest">
     <configuration name="All in SimpleClasses_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SimpleClasses_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -518,22 +518,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrinterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SimpleClasses_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="MAIN_CLASS_NAME" value="PrinterTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrinterTest.print" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SimpleClasses_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PrinterTest" />
+      <option name="METHOD_NAME" value="print" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrinterTest.printTotalSheets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SimpleClasses_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PrinterTest" />
+      <option name="METHOD_NAME" value="printTotalSheets" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrinterTest.refillPaper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SimpleClasses_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PrinterTest" />
+      <option name="METHOD_NAME" value="refillPaper" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CalculatorTest" />
       <item itemvalue="JUnit.All in SimpleClasses_test" />
+      <item itemvalue="JUnit.PrinterTest.refillPaper" />
+      <item itemvalue="JUnit.PrinterTest.print" />
+      <item itemvalue="JUnit.PrinterTest" />
+      <item itemvalue="JUnit.PrinterTest.printTotalSheets" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PrinterTest" />
+        <item itemvalue="JUnit.PrinterTest.printTotalSheets" />
+        <item itemvalue="JUnit.PrinterTest.print" />
+        <item itemvalue="JUnit.PrinterTest.refillPaper" />
         <item itemvalue="JUnit.All in SimpleClasses_test" />
-        <item itemvalue="JUnit.CalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -551,35 +587,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_SimpleClasses_test - 2019.02.11 at 16h 18m 28s.xml">
-      <configuration name="All in SimpleClasses_test" configurationId="JUnit" />
+    <history-entry file="PrinterTest_refillPaper - 2019.02.11 at 21h 24m 51s.xml">
+      <configuration name="PrinterTest.refillPaper" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_SimpleClasses_test - 2019.02.11 at 16h 31m 01s.xml">
-      <configuration name="All in SimpleClasses_test" configurationId="JUnit" />
+    <history-entry file="PrinterTest_print - 2019.02.11 at 21h 25m 05s.xml">
+      <configuration name="PrinterTest.print" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_SimpleClasses_test - 2019.02.11 at 18h 25m 00s.xml">
-      <configuration name="All in SimpleClasses_test" configurationId="JUnit" />
+    <history-entry file="PrinterTest - 2019.02.11 at 21h 25m 30s.xml">
+      <configuration name="PrinterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_SimpleClasses_test - 2019.02.11 at 19h 26m 22s.xml">
-      <configuration name="All in SimpleClasses_test" configurationId="JUnit" />
+    <history-entry file="PrinterTest - 2019.02.11 at 21h 27m 29s.xml">
+      <configuration name="PrinterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_SimpleClasses_test - 2019.02.11 at 19h 26m 57s.xml">
-      <configuration name="All in SimpleClasses_test" configurationId="JUnit" />
+    <history-entry file="PrinterTest - 2019.02.11 at 21h 32m 25s.xml">
+      <configuration name="PrinterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_SimpleClasses_test - 2019.02.11 at 20h 19m 02s.xml">
-      <configuration name="All in SimpleClasses_test" configurationId="JUnit" />
+    <history-entry file="PrinterTest_printTotalSheets - 2019.02.11 at 21h 56m 00s.xml">
+      <configuration name="PrinterTest.printTotalSheets" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_SimpleClasses_test - 2019.02.11 at 20h 19m 46s.xml">
-      <configuration name="All in SimpleClasses_test" configurationId="JUnit" />
+    <history-entry file="PrinterTest - 2019.02.11 at 21h 58m 15s.xml">
+      <configuration name="PrinterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_SimpleClasses_test - 2019.02.11 at 20h 30m 52s.xml">
-      <configuration name="All in SimpleClasses_test" configurationId="JUnit" />
+    <history-entry file="PrinterTest - 2019.02.11 at 22h 00m 10s.xml">
+      <configuration name="PrinterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_SimpleClasses_test - 2019.02.11 at 20h 31m 32s.xml">
-      <configuration name="All in SimpleClasses_test" configurationId="JUnit" />
+    <history-entry file="PrinterTest - 2019.02.11 at 22h 01m 15s.xml">
+      <configuration name="PrinterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_SimpleClasses_test - 2019.02.11 at 20h 35m 54s.xml">
-      <configuration name="All in SimpleClasses_test" configurationId="JUnit" />
+    <history-entry file="PrinterTest - 2019.02.11 at 22h 01m 59s.xml">
+      <configuration name="PrinterTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -596,11 +632,11 @@
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="2" weight="0.329653" />
-      <window_info active="true" anchor="bottom" id="Messages" order="3" visible="true" weight="0.28684628" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.28684628" />
       <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.21711569" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.21711569" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -620,13 +656,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="1" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -641,6 +670,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WaterBottleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-82">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="1" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WaterBottle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -648,31 +698,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WaterBottle.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/PrinterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WaterBottleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="384">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Printer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PrinterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+        <state relative-caret-position="315">
+          <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
         </state>
       </provider>
     </entry>

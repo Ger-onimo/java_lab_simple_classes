@@ -28,6 +28,13 @@ public class Printer {
 
     }
 
+    public int reduceTonerVolume(int pages, int copies){
+        int sheetsToPrint = pages * copies;
+        {
+            return this.tonerVolume - sheetsToPrint;
+        }
+
+    }
 
     public int getTonerVolume() {
         return tonerVolume;

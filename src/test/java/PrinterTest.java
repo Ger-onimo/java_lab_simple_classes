@@ -8,13 +8,13 @@ public class PrinterTest {
 
     @Before
     public void before() {
-        printer = new Printer(500, 3);
+        printer = new Printer(500, 1000);
     }
 
 
 //    @Test
 //    public void printTotalSheets() {
-//        assertEquals(100, printer.print(2, 50));
+//        assertEquals(100, printer.sheetsToPrint(2, 50));
 //    }
 
     @Test
@@ -27,18 +27,18 @@ public class PrinterTest {
         assertEquals(600, printer.refillPaper(2, 300));
     }
 
-
-
+    @Test
+    public void reduceVolume() {
+        assertEquals(700, printer.reduceTonerVolume(3, 100));
+    }
 
     @Test
     public void hasToner() {
-        assertEquals(3, printer.getTonerVolume());
+        assertEquals(1000, printer.getTonerVolume());
     }
 }
-//    @Test
-//    public void totalSheetsNeededToPrint(){
-//        assertEquals(100, printer.totalSheets(2, 50));
-//    }
+
+
 
 //    @Test
 //    public void printerHasEnoughPaper(){
