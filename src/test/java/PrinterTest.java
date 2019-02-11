@@ -23,6 +23,14 @@ public class PrinterTest {
     }
 
     @Test
+    public void refillPaper() {
+        assertEquals(600, printer.refillPaper(2, 300));
+    }
+
+
+
+
+    @Test
     public void hasToner() {
         assertEquals(3, printer.getTonerVolume());
     }

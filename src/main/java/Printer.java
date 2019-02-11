@@ -19,7 +19,14 @@ public class Printer {
     }
 
 
+    public int refillPaper(int pages, int copies){
+        int sheetsToPrint = pages * copies;
+        int sheetsDifference = sheetsToPrint - this.sheetNumber;
+        {
+            return this.sheetNumber + sheetsDifference;
+        }
 
+    }
 
 
     public int getTonerVolume() {
@@ -27,3 +34,7 @@ public class Printer {
     }
 
 }
+
+//    Create a method to refill the printer paper.
+//        Add a toner volume property to the class.
+//        Modify the printer so that it reduces the toner by 1 for each page printed.
